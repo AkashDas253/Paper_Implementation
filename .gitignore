@@ -1,2 +1,9 @@
 *.zip
 *.pgm
+*.rar
+Template/
+*.tar
+Lena/
+Airplane/
+Lena_out/
+Airplane_out/
