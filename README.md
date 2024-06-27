@@ -8,7 +8,7 @@ This repository contains implementations of various image processing papers. Eac
 
 The `use.c` program takes the paths to the corrupted and enhanced images as arguments. Here's how to run it:
 
-```bash
+```
 ./use path_to_corrupted_image path_to_enhanced_image
 '''
 
