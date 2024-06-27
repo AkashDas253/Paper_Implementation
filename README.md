@@ -10,14 +10,14 @@ The `use.c` program takes the paths to the corrupted and enhanced images as argu
 
 ```
 ./use path_to_corrupted_image path_to_enhanced_image
-'''
+```
 
 ### Test
 The 'test.c' program takes the paths to the real, corrupted, and enhanced images as arguments. It evaluates the images using Root Mean Square Error (RMSE), Peak Signal-to-Noise Ratio (PSNR), Image Enhancement Factor (IEF), and Structural Similarity Index Measure (SSIM). Here's how to run it:
 
-'''
+```
 ./test path_to_real_image path_to_corrupted_image path_to_enhanced_image
-'''
+```
 
 ## Implementations
 
