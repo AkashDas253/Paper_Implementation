@@ -25,13 +25,13 @@ Each implementation is in its own directory and includes a PDF of the paper and 
 
 ### Paper 1
 
-- [Paper PDF](link_to_pdf)
-- [Implementation](link_to_implementation)
+- [Paper PDF](01642712/01642712.pdf)
+- [Implementation](01642712)
 
 ### Paper 2
 
-- [Paper PDF](link_to_pdf)
-- [Implementation](link_to_implementation)
+- [Paper PDF](2014/2014.pdf)
+- [Implementation](2014)
 
 ## Dependencies
 
