@@ -7,7 +7,7 @@ Lena/
 Airplane/
 Lena_out/
 Airplane_out/
-Image_Processing_Notes/*
+private/
 *.exe
 run.c
 20141/
