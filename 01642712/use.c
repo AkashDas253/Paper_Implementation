@@ -220,12 +220,6 @@ void processImpulseNoiseDetection(double a[NNX][NNY],double b[NNX][NNY])
                 if( 1 && W[s]<=a[i][j] && a[i][j]<= W[t*t-s-1])
                 {
                     n=0.0;
-                    //printf("ygvby ");
-                    //printf("%lf %lf %lf %d %lf %lf:", (n*W[(t*t)/2]+(1.0-n)*a[i][j]), a[i][j], W[(t*t)/2], n, W[s], W[t*t-s]);
-                    
-                    //for(int ci=0; ci<t*t;ci++)
-                        //printf("%lf-",W[ci]);
-                    //printf("\n");
                 }
 
                 
@@ -236,11 +230,6 @@ void processImpulseNoiseDetection(double a[NNX][NNY],double b[NNX][NNY])
                 
                 a[i][j]=b[i][j]; // Immediate usage of update value 
 
-                // Test
-                if( 1 && n!=0.0 && n!=1.0)//r==0&&(a[i][j]==0||a[i][j]==p)) 
-                {
-                    //printf("%lf %lf %lf %lf %d %d:\n", b[i][j], a[i][j], median, n, s, t*t-s);
-                }
             }
             else
                 b[i][j]=a[i][j];

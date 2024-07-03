@@ -17,10 +17,5 @@ The algorithm has been implemented in C and works specifically on PGM (Portable 
 - C programming language
 - Standard C libraries for file handling and image processing
 
-## Usage
 
-### Prerequisites
-
-- GCC (GNU Compiler Collection) or any C compiler
-- PGM image files for testing
 

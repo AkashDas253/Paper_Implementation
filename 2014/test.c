@@ -291,11 +291,7 @@ int algorithm(double a[NNX][NNY],double b[NNX][NNY])
                 // Degree of Membership
                 double membership=exp(-0.5*(a[i][j]-mew)*(a[i][j]-mew)/(sigma*sigma));
 
-                //if(membership<0.0000000||membership>1.0)   
-                //    printf("Error in degree of membership: %lf %lf %lf %lf\n",a[i][j],membership, mew, sigma);
 
-                //b[i][j]=membership*p;
-                //break;
 
                 if(membership > T){   
                     b[i][j]=a[i][j];  

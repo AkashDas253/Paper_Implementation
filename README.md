@@ -4,6 +4,13 @@ This repository contains implementations of various image processing papers. Eac
 
 ## Usage
 
+### Compilation
+
+```
+gcc use.c -o use
+gcc test.c -o test
+```
+
 ### use.c
 
 The `use.c` program takes the paths to the corrupted and enhanced images as arguments. Here's how to run it:
@@ -37,3 +44,4 @@ Each implementation is in its own directory and includes a PDF of the paper and 
 
 - GCC (GNU Compiler Collection) or any C compiler
 - PGM image files for testing
+
