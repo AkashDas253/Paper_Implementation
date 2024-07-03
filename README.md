@@ -1,4 +1,4 @@
-# Image Processing Paper Implementations
+# Noise removal from Image
 
 This repository contains implementations of various image processing papers. Each implementation includes a PDF of the paper and a C program that implements the paper's methods.
 
